@@ -8,8 +8,7 @@ li{
    font-family: 'Raleway', sans-serif;
    font-size: 16px;
    font-weight: 500;
-   margin: 4px 20px;
-   
+   margin: 5px 20px;
 }
 .logo{
     width: 158px;
@@ -20,6 +19,7 @@ li{
 ul{
     display: flex;
     justify-content: space-between;
+    margin: 12px -55px;
 }
  .right{
     margin:13.5px 0px;
@@ -28,7 +28,7 @@ ul{
 .left .icon{
 width: 12px;
 height: 7.42px;
-
+margin: 0px 4px;
 }
 .right .icon{
     width: 24px;

@@ -10,7 +10,7 @@ const Nav = () => {
       <div className="left"><ul>
      
       <li>Courses <img src={key} alt="" className='icon'/></li>
-      <li>Courses <img src={key} alt="" className='icon'/> </li>
+      <li>Programs<img src={key} alt="" className='icon'/> </li>
         </ul>
         </div>
       <div className="right">

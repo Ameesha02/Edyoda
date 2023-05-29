@@ -310,9 +310,9 @@ margin: 20px 0px;
     font-weight: 400;
     font-size: 12px;
   }
-  .box input{
-    width:1.6rem;
-    height: 1.6rem;
+  .box .input{
+    width:1.2rem;
+    height: 1.2rem;
   }
 
     .box.Recommended {

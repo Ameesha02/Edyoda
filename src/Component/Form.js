@@ -20,7 +20,7 @@ const Form = () => {
       {Content.map((val,ind)=>{
         return(
           <Boxes key={ind} h1={val.h1} money={val.money1}
-          money2={val.money2} tag={val.tag} i ={ind}/>
+          money2={val.money2} tag={val.tag} i ={ind} img={val.img}/>
           )
         })}
        

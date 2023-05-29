@@ -8,7 +8,8 @@ const Boxes = (props) => {
    
     <div>
          <div className={`box ${props.tag}`}>
-        <input type='radio' id="btn" checked='true'/>
+        {/* <input type='radio' id="btn" checked='true'/> */}
+        <img src={props.img} alt="" className='input' />
         <span className="tag" style={{backgroundColor: `${tagColors[props.i]}`}}>
           {props.tag}
         </span>

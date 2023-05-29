@@ -2,13 +2,14 @@ import React from 'react'
 import "./Hero.css"
 
 const Boxes = (props) => {
-    console.log(props.tag)
+    // console.log(props.tag)
+    const tagColors = ['#F77171', '#47BA68'];
   return (
-    
+   
     <div>
-         <div className="box">
+         <div className={`box ${props.tag}`}>
         <input type='radio' id="btn" checked='true'/>
-        <span className="tag">
+        <span className="tag" style={{backgroundColor: `${tagColors[props.i]}`}}>
           {props.tag}
         </span>
        <div className="content"> <h1>

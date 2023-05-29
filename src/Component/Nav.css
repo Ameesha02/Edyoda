@@ -46,7 +46,7 @@ height: 7.42px;
     height: 72px;
     justify-content: space-between;
 }
-button{
+.nav button{
     display: flex;
     flex-direction: row;
     justify-content: center;
